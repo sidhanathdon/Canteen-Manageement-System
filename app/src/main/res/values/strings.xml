@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CampusBite</string>
+    <string name="register">Register</string>
+    <string name="email_address">Email address:</string>
+    <string name="mobile_no">Mobile No.:</string>
+    <string name="login_now">Login Now</string>
+    <string name="are_you_alreardy_an_user">Are you alreardy an user..??</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered">Not yet registered !!!!</string>
+    <string name="register_now">Register Now</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="orderhistory">OrderHistory</string>
+    <string name="profile">Profile</string>
+    <string name="cart">Cart</string>
+    <string name="home">Home</string>
+    <string name="welcome_to_home_page">welcome to home page</string>
+    <string name="welcome_to_profile">welcome to profile</string>
+    <string name="welcome_to_cart">welcome to cart</string>
+    <string name="collect">Your order is ready ,please grasp your order within 1 hour</string>
+</resources>

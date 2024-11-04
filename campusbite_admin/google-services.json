@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "240137771204",
+    "firebase_url": "https://campusbite-7b7af-default-rtdb.firebaseio.com",
+    "project_id": "campusbite-7b7af",
+    "storage_bucket": "campusbite-7b7af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240137771204:android:8c87ae33a5ea4ba28c5191",
+        "android_client_info": {
+          "package_name": "com.example.campusbite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAyu4boNtA6PcN2c_eHYA5bGgX0io4pds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240137771204:android:dc8dc1a94ad77e3f8c5191",
+        "android_client_info": {
+          "package_name": "com.example.campusbite_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAyu4boNtA6PcN2c_eHYA5bGgX0io4pds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

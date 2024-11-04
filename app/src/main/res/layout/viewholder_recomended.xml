@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="125dp"
+    android:layout_height="190dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/white_btn"
+    android:id="@+id/reco_holder"
+    android:layout_margin="5dp"
+    android:elevation="5dp">
+
+    <TextView
+        android:id="@+id/fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0.0"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="@+id/addBtn"
+        app:layout_constraintStart_toStartOf="@+id/title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_goneMarginEnd="10dp" />
+
+    <ImageView
+        android:id="@+id/vh_pic"
+        android:layout_width="77dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo112"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="title"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/vh_pic"
+        app:layout_constraintTop_toBottomOf="@+id/vh_pic" />
+
+    <ImageView
+        android:id="@+id/addBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/vh_pic"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/fee"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/plus_circle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
